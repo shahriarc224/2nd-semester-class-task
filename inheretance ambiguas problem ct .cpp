@@ -1,3 +1,9 @@
+/*Create a base class named Shape. It has two attributes height and width and a function area ().
+Shape has two derived classes Rectanglel and Rectangle2. These two classes take inputs for height and 
+width and calculate their corresponding areas using area(). Using third fourth class CalArea which is 
+derived from Rectanglel and Rectangle2 compare the areas of two rectangles.*/
+
+
 #include<iostream>
 using namespace std;
 
