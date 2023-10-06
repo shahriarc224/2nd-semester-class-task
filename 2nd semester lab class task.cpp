@@ -44,7 +44,7 @@ return 0;
 
 }
 
-/*Create a base class Person with attributes name and age.Derive class Student from Person with additional 
+/*2.Create a base class Person with attributes name and age.Derive class Student from Person with additional 
 attribute like studentID. Now use a friend function of Student class to print name,age and ID. */
 
 #include<iostream>
