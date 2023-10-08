@@ -44,6 +44,10 @@ return 0;
 
 }
 
+
+
+
+
 /*2.Create a base class Person with attributes name and age.Derive class Student from Person with additional 
 attribute like studentID. Now use a friend function of Student class to print name,age and ID. */
 
@@ -74,6 +78,9 @@ o.input();
 show(o);
 
 }
+
+
+
 
 
 /*3.Create a base class Vehicle with attributes model and year. Create another class Property which
@@ -137,6 +144,10 @@ ob2.input1();
 ob2.show2();
 
 }
+
+
+
+
 
 /*4.Create a class Person with attributes name and age. Derive a class Employee with an
 additional attribute employeeID. Derive another class Manager from Employee with an 
