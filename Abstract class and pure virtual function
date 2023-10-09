@@ -1,0 +1,137 @@
+1.
+
+#include<iostream>
+using namespace std;
+
+class Shape {
+public:
+    int height,width;
+
+    void setheight(int i){
+        height=i;
+    }
+
+    void setwidth(int j){
+        width=j;
+    }
+
+    virtual void area()=0;
+
+
+};
+
+class Rectangle : virtual public Shape{
+   public:
+       virtual void area(){
+
+       cout<<"Rectangle Area: "<<height*width<<endl;
+
+       }
+};
+
+class Triangle : virtual public  Shape {
+  public:
+      virtual void area(){
+
+
+      cout<<"Triangle Area: "<<0.5*height*width<<endl;
+
+      }
+
+};
+
+
+int main(){
+
+Rectangle *p=new Rectangle ();
+p->setheight(50);
+p->setwidth(10);
+p-> area();
+
+Triangle *k=new Triangle ();
+k->setheight(5);
+k->setwidth(4);
+k-> area();
+
+
+
+return 0;
+
+}
+
+
+2.
+
+#include<iostream>
+using namespace std;
+
+class Flower{
+public:
+    virtual void ShowItem()=0;
+
+};
+
+class Rose:virtual public Flower{
+public:
+    virtual void ShowItem(){
+
+        cout<<"Sell rose"<<endl;
+
+    }
+
+};
+
+class Marigold:virtual public Flower {
+public:
+    virtual void ShowItem(){
+
+        cout<<"Sell marigold"<<endl;
+    }
+};
+
+int main(){
+
+    Flower *p=new Rose();
+    p->ShowItem();
+
+    Flower *k=new Marigold();
+    k->ShowItem();
+
+    return 0;
+}
+
+3.
+
+#include<iostream>
+using namespace std;
+class multiply
+{
+public:
+    int m,n;
+
+    multiply(int i,int j)
+    {
+        m=i;
+        n=j;
+
+    }
+    virtual void sum()=0;
+};
+class result:virtual public multiply
+{
+public:
+    result(int k,int h):multiply(k,h)
+    {
+        cout<<m+n;
+    }
+    virtual void sum(){
+
+    }
+
+};
+int main()
+{
+    result ob(5,15);
+
+    return 0;
+}
