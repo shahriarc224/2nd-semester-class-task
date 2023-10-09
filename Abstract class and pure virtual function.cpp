@@ -1,4 +1,9 @@
-1.
+/*1. Create an abstract class named Shape with a pure virtualfunction 
+named area(). This class has two functions named set_height(int I) and 
+set_width(int j) to set the values for width and height. This abstractclass
+is inherited by two classes Rectangle and Triangle.They will use the area() 
+function to calculate their corresponding height and width by using 
+respective rules.*/
 
 #include<iostream>
 using namespace std;
@@ -60,7 +65,12 @@ return 0;
 }
 
 
-2.
+/*
+2. Design a class named Flower. Flower will have only one function showItem( 
+which will output what it sells. Create two derived classes, Rose and Marigold. 
+Rose will define showItem so that it will output "sells rose" and similarly
+Marigold will output "sells marigold". In the main() function, use the Flower 
+class in a way that implements the idea of abstraction.*/
 
 #include<iostream>
 using namespace std;
@@ -100,7 +110,9 @@ int main(){
     return 0;
 }
 
-3.
+/* 3. Consider an abstract class named multiply with its constructor which will set the values
+for m and n. It has a virtual function named sum().Consideranother class Result which is inherited 
+from multiply class and by using the constructor of Result class it will show the result of m+n.*/
 
 #include<iostream>
 using namespace std;
