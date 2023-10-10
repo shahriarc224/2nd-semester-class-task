@@ -78,9 +78,10 @@ main ()
   return 0;
 }
 
-/*QUESTION:Declare a class A and then inherit it in class B and class C ,after that 
+/*QUESTION:Declare a class A that has two derieved class B and class C ,after that 
 inherit clas B and C in class D.(ambiguas problem).All the classes will contain same 
-function show().and in main function you will call all the function of that class A,B,C and D .*/
+function show().and in main function you will call all the function of that 
+class A,B,C,D and show the output .*/
 
 //ANSWER :
 #include<iostream>
@@ -138,7 +139,9 @@ int main()
     p->A::show();//If i want to call a function which is inside class A//
     p->B::show();//If i want to call a function which is inside class B//
     p->C::show();//If i want to call a function which is inside class C//
-    p->show();//If i want to call a function which is inside class D//
+    p->show();/*If i want to call a function which is inside class D. We
+                  have already made an pointer of class D thats why we are 
+		  not going to write p->D  */
 
     return 0;
 }
