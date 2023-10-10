@@ -1,6 +1,7 @@
-/*1. Create an abstract class named Shape with a pure virtualfunction 
+                                                                                   //9.10.23
+/*1. Create an abstract class named Shape with a pure virtual nction 
 named area(). This class has two functions named set_height(int I) and 
-set_width(int j) to set the values for width and height. This abstractclass
+set_width(int j) to set the values for width and height. This abstract class
 is inherited by two classes Rectangle and Triangle.They will use the area() 
 function to calculate their corresponding height and width by using 
 respective rules.*/
