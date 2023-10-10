@@ -135,10 +135,10 @@ public:
 int main()
 {
     D *p=new D;
-    p->A::show();//If i want to call a function which is inside A//
-    p->B::show();//If i want to call a function which is inside B//
-    p->C::show();//If i want to call a function which is inside C//
-    p->show();//If i want to call a function which is inside D//
+    p->A::show();//If i want to call a function which is inside class A//
+    p->B::show();//If i want to call a function which is inside class B//
+    p->C::show();//If i want to call a function which is inside class C//
+    p->show();//If i want to call a function which is inside class D//
 
     return 0;
 }
