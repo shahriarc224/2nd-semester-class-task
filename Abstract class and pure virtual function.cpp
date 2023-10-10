@@ -65,7 +65,6 @@ return 0;
 
 }
 
-
 /*
 2. Design a class named Flower. Flower will have only one function showItem( 
 which will output what it sells. Create two derived classes, Rose and Marigold. 
@@ -76,9 +75,9 @@ class in a way that implements the idea of abstraction.*/
 #include<iostream>
 using namespace std;
 
-class Flower{
+class Flower{                    //Abstract class.
 public:
-    virtual void ShowItem()=0;
+    virtual void ShowItem()=0;  //pure virtual function .
 
 };
 
