@@ -82,7 +82,7 @@ main ()
 inherit clas B and C in class D.(ambiguas problem).All the classes will contain same 
 function show().and in main function you will call all the function of that class A,B,C and D .*/
 
-ANSWER :
+//ANSWER :
 #include<iostream>
 using namespace std;
 class A
