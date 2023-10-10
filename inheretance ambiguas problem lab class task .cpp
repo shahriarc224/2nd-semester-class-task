@@ -78,9 +78,9 @@ main ()
   return 0;
 }
 
-/*QUESTION:
-
-	*/
+/*QUESTION:Declare a class A and then inherit it in class B and class C ,after that 
+inherit clas B and C in class D.(ambiguas problem).All the classes will contain same 
+function show().and in main function you will call all the function of that class A,B,C and D .*/
 
 ANSWER :
 #include<iostream>
