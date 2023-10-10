@@ -66,8 +66,7 @@ public:
 };
 
 
-int
-main ()
+int main ()
 {
 
   compare *p = new compare ();
@@ -77,6 +76,7 @@ main ()
 
   return 0;
 }
+                                                                             //Date:2.10.23
 
 /*QUESTION:Declare a class A that has two derieved class B and class C ,after that 
 inherit clas B and C in class D.(ambiguas problem).All the classes will contain same 
@@ -136,11 +136,11 @@ public:
 int main()
 {
     D *p=new D;
-    p->A::show();//If i want to call a function which is inside class A//
-    p->B::show();//If i want to call a function which is inside class B//
-    p->C::show();//If i want to call a function which is inside class C//
-    p->show();/*If i want to call a function which is inside class D. We
-                  have already made an pointer of class D thats why we are 
+    p->A::show();    //If i want to call a function which is inside class A//
+    p->B::show();   //If i want to call a function which is inside class B//
+    p->C::show();   //If i want to call a function which is inside class C//
+    p->show();      /*If i want to call a function which is inside class D. We
+                      have already made an pointer of class D thats why we are 
 		  not going to write p->D  */
 
     return 0;
