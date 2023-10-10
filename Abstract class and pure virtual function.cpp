@@ -1,4 +1,4 @@
-                                                                                   //9.10.23 (Monday )
+                                                                                   //9.10.23 (Monday )Lab
 /*1. Create an abstract class named Shape with a pure virtual function 
 named area(). This class has two functions named set_height(int I) and 
 set_width(int j) to set the values for width and height. This abstract class
