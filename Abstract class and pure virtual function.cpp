@@ -1,5 +1,5 @@
                                                                                    //9.10.23
-/*1. Create an abstract class named Shape with a pure virtual nction 
+/*1. Create an abstract class named Shape with a pure virtual function 
 named area(). This class has two functions named set_height(int I) and 
 set_width(int j) to set the values for width and height. This abstract class
 is inherited by two classes Rectangle and Triangle.They will use the area() 
@@ -9,7 +9,7 @@ respective rules.*/
 #include<iostream>
 using namespace std;
 
-class Shape {
+class Shape {      //(abstract class)This class is an abstract class because it contains a pure virtual function area()
 public:
     int height,width;
 
@@ -21,7 +21,7 @@ public:
         width=j;
     }
 
-    virtual void area()=0;
+    virtual void area()=0;//pure virtual function
 
 
 };
