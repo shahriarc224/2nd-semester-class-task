@@ -1,0 +1,38 @@
+/*                                                                                                                                         Online class
+                                                                                                                                            Date:6.10.23
+2. Suppose, you have an object "obj" of a class named myClass which contains two public integer member variable u and v. 
+Your task is to apply concepts of operator overloading to overload the operator '--' so that you can perform the decrement 
+of both u and v by the sum of last three digits of your ID through the following instructions ob-- or --ob.
+
+*/
+
+#include <iostream>
+using namespace std;
+class myClass {
+public:
+    int u;
+    int v;
+
+    myClass(int u_val, int v_val){
+        u=u_val;
+        v=v_val;
+    }
+
+    myClass operator--() {
+        int idDigits = 143;
+        u -= idDigits;
+        v -= idDigits;
+        return *this;
+    }
+};
+
+int main() {
+    myClass obj(50, 60);
+
+    cout << "Original values: u = " << obj.u << ", v = " << obj.v << endl;
+
+    --obj;
+    cout << "After prefix decrement: u = " << obj.u << ", v = " << obj.v << endl;
+
+    return 0;
+}
