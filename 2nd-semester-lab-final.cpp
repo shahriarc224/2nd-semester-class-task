@@ -1,4 +1,4 @@
-/*1.   Implement the following concept using operator overloding :                                        date: 13.11.23
+/*1. Implement the following concept using operator overloding :                                        date: 13.11.23
 
 int main(){
 
