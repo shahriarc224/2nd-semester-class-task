@@ -7,7 +7,8 @@ ob1=(ob2*10)+ob2;
 
 }
 
-where A is the class name.Design the ccode toi find the output for the above operation between object.
+where A is the class name.Design the ccode toi find the output for 
+the above operation between object.
 
 */
 #include<iostream>
@@ -54,7 +55,11 @@ int main()
 }
 
 
-2.   
+/* 2.
+
+
+
+*/ 
     
     #include<iostream>
     using namespace std;
