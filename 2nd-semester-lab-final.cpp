@@ -1,4 +1,4 @@
-/*1. Implement the following concept using operator overloding :                                        date: 13.11.23
+/*1. Implement the following concept using operator overloding :                                        Date: 13.11.23
 
 int main(){
 
@@ -54,7 +54,9 @@ int main()
 }
 
 
-2.    #include<iostream>
+2.   
+    
+    #include<iostream>
     using namespace std;
     class Person
     {
