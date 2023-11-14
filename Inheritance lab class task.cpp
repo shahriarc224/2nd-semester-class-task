@@ -192,4 +192,93 @@ for(int i=0;i<5;i++){
 return 0;
 }
 
+/*Create a class a with attributes of an intager value 5.Derive a class B with an additional attribute 10
+.Derive a class C with an additional attribute 100 which is also a child calss of A . MAke another 2 child
+class D,E which inherit  B and  attributes of an intager value 15,50 .MAke another 2 childclass F,G which
+inherit  C and  attributes of an intager value 105,500. */
+
+
+#include<bits/stdc++.h>
+using namespace std;
+ class a
+ {
+ 	public:
+ 	int a=5;
+	 
+ };
+ 
+ class b:public a{
+ 	public:
+ 	int b=10;
+	 
+ };
+ 
+ 
+ class d: public b{
+ 	public:
+    
+ 	void sum1(){
+    	 
+ 	cout<<a+b<<endl;    
+    	 
+ 	}
+	 
+ };
+ 
+ 
+  class e: public b{
+ 	public:
+	 
+ 	void mul1(){
+    	 
+ 	cout<<a*b<<endl;    
+    	 
+ 	}
+	 
+ };
+ 
+ 
+ class c:public a{
+   public:
+   int c=100;
+	 
+ };
+ 
+ 
+ class f:public c{
+ 	public:
+ 	void sum2(){
+    	 
+     	cout<<a+c<<endl;
+    	 
+ 	}
+ };
+
+class g:public c{
+	public:
+	void mul2(){
+   	 
+    	cout<<a*c<<endl;
+   	 
+	}
+    
+};
+ 
+
+ int main(){
+ 	d ob1;
+ 	e ob2;
+ 	f ob3;
+ 	g ob4;
+	 
+ 	ob1.sum1();
+ 	ob2.mul1();
+ 	ob3.sum2();
+ 	ob4.mul2();
+	 
+ }
+
+
+
+
 
