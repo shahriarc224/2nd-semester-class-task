@@ -1,4 +1,4 @@
-FGDSD                                                                                                                                                                                   Date:
+                                                                                                                                                                         Date:
 /*1. Create a base class Shape with attributes width and height. Derive classes Rectangle and Triangl
 from Shapeto represent specific shapes. Include member functions to calcUlate area for each shape. */
 
