@@ -1,5 +1,6 @@
 /*Operator overloding:
-  1)Write a  C++ program that defines two classes, A and B, and uses them to calculate and compare the areas of two triangles.
+  1)Write a  C++ program that defines two classes, A and B, and uses
+  them to calculate and compare the areas of two triangles.
 */
 
 #include<iostream>
