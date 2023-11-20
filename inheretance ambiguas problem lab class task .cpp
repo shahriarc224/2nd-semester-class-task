@@ -146,3 +146,31 @@ int main()
     return 0;
 }
 
+//class work
+
+#include<iostream>
+using namespace std;
+class A
+{ 
+    public:
+  virtual void fly ()
+  {
+    cout << "From  class A" << endl;
+  }
+};
+class B:virtual public A
+{
+    public:
+  virtual void fly ()
+  {
+    cout << "From  class B" << endl;
+  }
+};
+int
+main ()
+{
+  B *p = new B ();
+  p->A::fly ();   //If i want to call a function which is inside class A
+  p->fly ();      //We haver already created a pointer of class B thats why wewe are not going to write B::fly(): 
+
+}
